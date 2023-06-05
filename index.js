@@ -1,10 +1,9 @@
 var btn = document.querySelector('button'); 
-  let w = window.innerWidth;
-  let h = window.innerHeight; 
+  let w = window.innerWidth; 
 
 function sayHello() {
-   w = window.innerWidth;
-   h = window.innerHeight; 
+   w = window.innerWidth; 
+   console.log(w); 
    var hp = document.querySelector("h1");
    var dp = document.querySelector(".div");
    if (w < 1400 && w>840) {
@@ -23,7 +22,6 @@ btn.addEventListener("mouseover",async function(e) {
    btn.style.top = 1-e.y*0.9+'px'; 
    btn.style.left = 1 -e.x * 0.9 + "px"; 
 })
-
 
 var ht = document.querySelector("button");
   ht.addEventListener("click", function (e) {
