@@ -15,6 +15,6 @@ button{
      padding: 1rem;
 }
 .div{
-    display: flex;
+    display: none;
     gap: 20px;
 }
