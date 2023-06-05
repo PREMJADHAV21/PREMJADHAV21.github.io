@@ -7,7 +7,7 @@ function sayHello() {
    h = window.innerHeight; 
    var hp = document.querySelector("h1");
    var dp = document.querySelector(".div");
-   if (w < 1400) {
+   if (w < 1400 w>840) {
      dp.style.display = "flex";
      hp.innerHTML = "Are You Dumb ?";
    } else {
